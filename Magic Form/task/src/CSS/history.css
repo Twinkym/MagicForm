@@ -1,0 +1,39 @@
+*{box-sizing: border-box;}
+html, body{margin: 0; padding: 0;}
+nav{text-align: center; padding: 1rem; width: 100%; background: black; margin: auto;}
+a{text-decoration: none; color: white; margin-left: 50px;}
+form{
+    text-align: left;
+    display: block;
+    padding: 2rem;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+}
+label{font-weight: bold;}
+
+button:hover{
+    background: blue;
+    color: white;
+}
+.submit-history-card{
+    align-self: center;
+    text-align: center;
+    margin: auto;
+    background-color: aliceblue;
+    width: fit-content;
+    border-radius: .5rem;
+    border: black;
+    border-style: dot-dash;
+}
+.delete-button{
+    margin-bottom: 1rem;
+    align-self: center;
+    background-color: red;
+}
+[class^="card-"]{
+    color: blue;
+}
+footer{
+    text-align: center;
+}
